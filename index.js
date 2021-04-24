@@ -9,7 +9,7 @@ const port = process.env.PORT || 8080;
 const AWS = require('aws-sdk')
 const fs = require('fs')
 const ACCESS_KEY_ID = "AKIAXNLLRY7KXO3DEPEF"
-const SECRET_ACCESS_KEY = "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"
+const SECRET_ACCESS_KEY = ""
 const BUCKET_NAME = "alexunicovidapi"
 app.get('/*',function(req,res){
     res.send("Welcome To Our API Post Your Data Please");
